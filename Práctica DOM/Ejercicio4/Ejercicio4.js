@@ -1,4 +1,4 @@
-+cument.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("btnImagenes").addEventListener("click", () => {
         const imagenes = document.getElementsByTagName("img");
         alert("Número total de imágenes: " + imagenes.length);

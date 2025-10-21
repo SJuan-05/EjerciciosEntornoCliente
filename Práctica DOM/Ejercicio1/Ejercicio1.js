@@ -39,6 +39,7 @@ window.onload = function(){
         const ptodosB = document.querySelectorAll('p');
         if (ptodosB.length > 1){
             contenedor.removeChild(ptodosB[1]);
+
         }else{
             alert("No hay un segundo párrafo para reemplazarlo");
         }
@@ -49,7 +50,7 @@ window.onload = function(){
     document.getElementById('btnClonar').onclick = function(){
 
         const contenedor = document.getElementById('contenedor');
-        const clonDiv = contenedor.cloneNode(true) ;
+        const clonDiv = contenedor.cloneNode(true);
         document.body.appendChild(clonDiv);
     }
 }
