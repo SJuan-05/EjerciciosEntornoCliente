@@ -1,4 +1,4 @@
-function crearCaja() {
+/*function crearCaja() {*/
     // Creo el elemento en este caso tipo input
     var caja = document.createElement("input");
   
@@ -21,4 +21,4 @@ function crearCaja() {
   
     // Lo añado al body
     document.body.appendChild(caja);
-  }
+  
