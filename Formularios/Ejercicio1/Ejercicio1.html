@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./Ejercicio1.js"></script>
+</head>
+<body>
+    <h1>Ejercicio1</h1>
+    <form id="miFormulario">
+        <h2>Formulario Personal</h2>
+    
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+    
+        <label for="dni">DNI:</label>
+        <input type="text" id="dni" name="dni" placeholder="Ej: 12345678A">
+    
+        <label for="telefono">Teléfono:</label>
+        <input type="text" id="telefono" name="telefono" placeholder="Ej: 666555444">
+    
+        <label for="foto">Mi foto:</label>
+        <input type="file" id="foto" name="foto" accept="image/*">
+    
+        <label for="aficiones">Aficiones:</label>
+        <select id="aficiones" name="aficiones">
+          <option value="musica">Música</option>
+          <option value="lectura">Lectura</option>
+          <option value="deporte">Deporte</option>
+        </select>
+    
+        <label for="observaciones">Observaciones (máx. 150 caracteres):</label>
+        <textarea id="observaciones" name="observaciones" maxlength="150"></textarea>
+    
+        <div class="botones">
+          <button type="submit">Guardar Cambios</button>
+          <button type="reset" class="reset">Borrar datos introducidos</button>
+        </div>
+      </form>
+</body>
+</html>
