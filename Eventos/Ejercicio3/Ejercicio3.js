@@ -1,22 +1,22 @@
 window.onload = function(){
 
-    const tamaño = document.getElementById("tamaño");
+    let tamaño = document.getElementById("tamaño");
+    tamaño.addEventListener("mouseover", tamaños);
+    tamaño.addEventListener("mouseout", tamaños);
 
-    function tamaños(evento){
 
-        if (evento.type == "mouseover"){
+    function tamaños(event){
 
-            evento.target.style.fontSize = "16pt";
+        if (event.type == "mouseover"){
 
-        } else if (evento.type == "mouseout"){
+            event.target.style.fontSize = "16pt";
 
-            evento.target.style.fontSize = "12pt";
+        } else if (event.type == "mouseout"){
+
+            event.target.style.fontSize = "12pt";
 
         }
 
     }
-    
-    tamaño.addEventListener("mouseover", tamaños);
-    tamaño.addEventListener("mouseout", tamaños);
 
 }
