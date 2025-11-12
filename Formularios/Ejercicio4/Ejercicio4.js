@@ -11,6 +11,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     // Asociamos el evento "change" a ambos checkbox
-    chkNegrita.addEventListener("change", actualizarEstilos);
-    chkCursiva.addEventListener("change", actualizarEstilos);
+    chkNegrita.addEventListener("click", actualizarEstilos);
+    chkCursiva.addEventListener("click", actualizarEstilos);
   });

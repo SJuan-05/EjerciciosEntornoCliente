@@ -13,16 +13,65 @@
     
         <label for="nombre">Nombre:</label>
         <input type="text" id="nombre" name="nombre">
+
+        <br>
+        <br>
     
-        <label for="dni">DNI:</label>
-        <input type="text" id="dni" name="dni" placeholder="Ej: 12345678A">
+        <label for="nombre">Apellidos:</label>
+        <input type="text" id="apellido" name="apellido">
     
+        <br>
+        <br>
+
         <label for="telefono">Teléfono:</label>
         <input type="text" id="telefono" name="telefono" placeholder="Ej: 666555444">
+
+        <br>
+        <br>
+
+        <label for="dni">DNI:</label>
+        <input type="text" id="dni" name="dni" placeholder="Ej: 12345678A">
+        
+        <br>
+        <br>
+
+        <label for="telefono">Edad:</label>
+        <input type="text" id="edad" name="telefono" placeholder="Ej: 20">
     
-        <label for="foto">Mi foto:</label>
+        <br>
+        <br>
+
+        <fieldset>
+          <legend>Sexo</legend>
+        
+          <label>
+            <input type="radio" name="sexo" value="hombre" id="hombre">
+            Hombre
+          </label>
+        
+          <label>
+            <input type="radio" name="sexo" value="mujer" id="mujer">
+            Mujer
+          </label>
+        </fieldset>
+
+        <br>
+        <br>
+
+        <label for="foto">Incluir mi foto:</label>
         <input type="file" id="foto" name="foto" accept="image/*">
+
+        <br>
+        <br>
+
+        <label>
+          <input type="checkbox" id="publicidad" name="publicidad">
+          Enviar publicidad
+        </label>
     
+        <br>
+        <br>
+
         <label for="aficiones">Aficiones:</label>
         <select id="aficiones" name="aficiones">
           <option value="musica">Música</option>
@@ -30,9 +79,15 @@
           <option value="deporte">Deporte</option>
         </select>
     
+        <br>
+        <br>
+
         <label for="observaciones">Observaciones (máx. 150 caracteres):</label>
         <textarea id="observaciones" name="observaciones" maxlength="150"></textarea>
     
+        <br>
+        <br>
+
         <div class="botones">
           <button type="submit">Guardar Cambios</button>
           <button type="reset" class="reset">Borrar datos introducidos</button>

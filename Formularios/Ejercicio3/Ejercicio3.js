@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Recorremos cada radio y añadimos el evento "change"
     radios.forEach(radio => {
       radio.addEventListener("change", () => {
-        texto.style.color = radio.value; // Cambia el color al valor del radio
+        texto.style.color = radio.value;
       });
     });
   });

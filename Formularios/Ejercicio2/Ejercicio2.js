@@ -5,6 +5,6 @@ document.addEventListener("DOMContentLoaded", () => {
     // Evento al cambiar la opción del select
     select.addEventListener("change", () => {
       const colorSeleccionado = select.value;
-      texto.style.color = colorSeleccionado; // Aplica el color directamente
+      texto.style.color = colorSeleccionado; 
     });
   });
